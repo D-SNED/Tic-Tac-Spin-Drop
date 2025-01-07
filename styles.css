@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  margin: 0 auto;
+  margin: auto;
   width: 308px;
   text-align: center;
 }
@@ -23,6 +23,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border: solid black 1px;
+  cursor: pointer;
 }
 
 .square {
